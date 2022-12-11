@@ -1,0 +1,118 @@
+/* Fase 1: elementos basicos */
+body {
+    width:700px;
+    margin: 15px auto;
+    font-family: Arial, "MS Trebuchet", sans-serif;
+    background-color: #e6e6e6;
+}
+ 
+/*
+Adiciona uma linha a baixo dos elementos: h1, h2, h3
+*/
+h1.sub {
+    color: black;
+    width: 100%;
+    border-bottom-style: solid;
+}
+ 
+h2.sub, h3.sub {
+    color: #673ab7;
+    width: 100%;
+    border-bottom-style: solid;
+}
+/* Fase 2: elementos basicos */
+/*
+  Adiciona uma linha abaixo dos 
+  elementos p da classe sub
+*/
+p.sub {
+    font-weight: bold;
+    color: brown;
+    border-bottom-style: solid;
+}
+ 
+/*  Footer Pager  */
+footer.pagina {
+    background-color: black;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 10px;
+    text-align: right;
+    color: white;
+}
+ 
+footer.pagina a {
+    text-decoration: none;
+    color: beige;
+}
+/* Fase 3 - Table */
+/* Adicionadno bordas as tebelas */
+table.horario {
+    width:100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+ 
+table.horario tr {
+    border: 1px solid black;
+}
+ 
+table.horario td,
+table.horario th{
+    border: 1px solid black;
+}
+/* Fase 4 - Tabela - Ajustando os espaços */
+/* Adicionando espaço entre o conteúdo das
+    celulas e as bordas */
+table.horario th,
+table.horario td {
+    padding: 15px;
+}
+ 
+/*Alinhando os cabeçalhos à esquerda*/
+table.horario th {
+    text-align: left;
+}
+/* Fase 5 */
+/* Formatando o Caption da Tabela */
+table.horario caption {
+    font-weight: bolder;
+    color:cornflowerblue;
+    text-align: right;
+    padding-bottom: 10px;
+}
+/* Formatando as celulas de cabeçalho */
+ 
+table.horario thead th,
+table.horario tfoot th,
+table.horario tbody th{
+    background-color: royalblue;
+    //color: darksalmon;
+    color: antiquewhite;
+    font-weight: lighter;
+    padding: 5px;
+    border:none;
+}
+/* Fase 6 - Zebrando */
+/* Linhas Pares*/
+table.horario tr:nth-child(even){
+    background-color:#EBF0FA;
+}
+ 
+/* Linhas Impares */
+table.horario tr:nth-child(odd){
+    //background-color: bisque;
+    background-color:#4275A3;
+}
+ 
+/* Efeito Hover */
+table.horario tr:hover{
+    background-color:aqua;
+}
+/* Fase 7 - Removendo as bordas da Tabela */
+/* Remover bordas*/
+table.horario tr,
+table.horario td,
+table.horario th{
+    border:none;
+}
