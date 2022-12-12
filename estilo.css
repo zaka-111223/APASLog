@@ -87,12 +87,13 @@ table.horario thead th,
 table.horario tfoot th,
 table.horario tbody th{
     background-color: royalblue;
-    //color: darksalmon;
+    color: darksalmon;
     color: antiquewhite;
     font-weight: lighter;
     padding: 5px;
     border:none;
 }
+
 /* Fase 6 - Zebrando */
 /* Linhas Pares*/
 table.horario tr:nth-child(even){
@@ -101,7 +102,7 @@ table.horario tr:nth-child(even){
  
 /* Linhas Impares */
 table.horario tr:nth-child(odd){
-    //background-color: bisque;
+    background-color: bisque;
     background-color:#4275A3;
 }
  
